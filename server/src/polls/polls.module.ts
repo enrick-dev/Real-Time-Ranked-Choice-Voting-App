@@ -4,7 +4,7 @@ import { PollsController } from './polls.controller';
 import { PollsService } from './polls.service';
 
 @Module({
-  imports: [ConfigModule.forRoot()],
+  imports: [ConfigModule],
   controllers: [PollsController],
   providers: [PollsService],
 })
